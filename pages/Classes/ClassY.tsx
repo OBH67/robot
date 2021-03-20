@@ -98,7 +98,7 @@ interface SpeedY {
     }
   }
   
-  export class FieldY {
+  export default class FieldY {
     // varables
     private limit_mined: number;
     private limit_field: number;

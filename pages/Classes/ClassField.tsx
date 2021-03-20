@@ -104,7 +104,7 @@ interface CoordinateInterface {
     }
   }
   
-  export class Field {
+  export default class Field {
     // varables
     private limit_mined: number;
     private limit_field: number;

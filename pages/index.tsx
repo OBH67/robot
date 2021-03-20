@@ -1,9 +1,9 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import { FieldY } from "./Classes/ClassY"
-import { FieldX } from "./Classes/ClassX"
-import { Field } from "./Classes/ClassField"
-import { MineEMP } from "./Classes/ClassEmp"
+import  FieldY  from "./Classes/ClassY"
+import  FieldX  from "./Classes/ClassX"
+import  Field  from "./Classes/ClassField"
+import  MineEMP  from "./Classes/ClassEmp"
 
 enum Flags {
   LIMIT = 23,

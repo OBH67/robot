@@ -109,7 +109,7 @@ interface X {
     }
   }
   
-  export class MineEMP {
+  export default class MineEMP {
     // varables
     private limit_mined: number;
     private limit_field: number;
@@ -221,4 +221,6 @@ interface X {
       return this.countermine;
     }
   }
+
+
   
