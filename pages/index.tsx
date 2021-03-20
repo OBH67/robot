@@ -28,7 +28,7 @@ export default function Home() {
 
           <a className={styles.card}>
             <h3>EMP Mine Zone</h3>
-            <p>EMP Mine area: }</p>
+            <p>EMP Mine area: </p>
           </a>
 
           <a className={styles.card}>
