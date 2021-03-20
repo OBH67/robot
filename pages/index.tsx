@@ -18,28 +18,27 @@ export default function Home() {
           Get started by editing{' '}
           <code className={styles.code}>pages/index.js</code>
         </p>
-
         <div className={styles.grid}>
           <a className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a className={styles.card}>
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a className={styles.card}>
-            <h3>Deploy &rarr;</h3>
+            <h3>Safe Area</h3>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              How large is the area that the robot can access?. Answer: 
             </p>
+          </a>
+
+          <a className={styles.card}>
+            <h3>EMP Mine Zone</h3>
+            <p>EMP Mine area: }</p>
+          </a>
+
+          <a className={styles.card}>
+            <h3>Safe Points (X,0)</h3>
+            <p>Safe points on cordinate X: </p>
+          </a>
+
+          <a className={styles.card}>
+            <h3>Safe Points (0,Y)</h3>
+            <p>Safe points on cordinate Y: </p>
           </a>
         </div>
       </main>
